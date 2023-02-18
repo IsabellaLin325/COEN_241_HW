@@ -1,0 +1,142 @@
+Test 1 ========> num of threads 4; max prime 20000
+Test 1 ========> num of threads 4; max prime 20000
+1 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          7.5127s
+    total number of events:              10000
+    total time taken by event execution: 30.0281
+    per-request statistics:
+         min:                                  2.62ms
+         avg:                                  3.00ms
+         max:                                 19.68ms
+         approx.  95 percentile:               4.43ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/7.68
+    execution time (avg/stddev):   7.5070/0.00
+
+2 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          7.4872s
+    total number of events:              10000
+    total time taken by event execution: 29.9402
+    per-request statistics:
+         min:                                  2.55ms
+         avg:                                  2.99ms
+         max:                                 20.84ms
+         approx.  95 percentile:               4.65ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/3.00
+    execution time (avg/stddev):   7.4850/0.00
+
+3 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          7.4975s
+    total number of events:              10000
+    total time taken by event execution: 29.9811
+    per-request statistics:
+         min:                                  2.60ms
+         avg:                                  3.00ms
+         max:                                 43.93ms
+         approx.  95 percentile:               3.99ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/9.97
+    execution time (avg/stddev):   7.4953/0.00
+
+4 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          7.5327s
+    total number of events:              10000
+    total time taken by event execution: 30.1215
+    per-request statistics:
+         min:                                  2.55ms
+         avg:                                  3.01ms
+         max:                                 29.91ms
+         approx.  95 percentile:               4.48ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/16.72
+    execution time (avg/stddev):   7.5304/0.00
+
+5 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          8.1548s
+    total number of events:              10000
+    total time taken by event execution: 32.6107
+    per-request statistics:
+         min:                                  2.58ms
+         avg:                                  3.26ms
+         max:                                 25.14ms
+         approx.  95 percentile:               6.12ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/9.06
+    execution time (avg/stddev):   8.1527/0.00
+

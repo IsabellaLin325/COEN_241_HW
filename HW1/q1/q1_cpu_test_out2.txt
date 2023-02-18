@@ -1,0 +1,151 @@
+Test 2 ========> num of threads 4; max prime 30000
+1 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+Maximum prime number checked in CPU test: 30000
+
+
+Test execution summary:
+    total time:                          30.0112s
+    total number of events:              4998
+    total time taken by event execution: 119.8802
+    per-request statistics:
+         min:                                  9.42ms
+         avg:                                 23.99ms
+         max:                                 69.70ms
+         approx.  95 percentile:              31.43ms
+
+Threads fairness:
+    events (avg/stddev):           1249.5000/8.02
+    execution time (avg/stddev):   29.9701/0.02
+
+2 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+Maximum prime number checked in CPU test: 30000
+
+
+Test execution summary:
+    total time:                          30.0130s
+    total number of events:              5234
+    total time taken by event execution: 119.9262
+    per-request statistics:
+         min:                                  9.47ms
+         avg:                                 22.91ms
+         max:                                 50.20ms
+         approx.  95 percentile:              30.32ms
+
+Threads fairness:
+    events (avg/stddev):           1308.5000/12.46
+    execution time (avg/stddev):   29.9816/0.01
+
+3 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+Maximum prime number checked in CPU test: 30000
+
+
+Test execution summary:
+    total time:                          30.0182s
+    total number of events:              5114
+    total time taken by event execution: 119.9213
+    per-request statistics:
+         min:                                  9.42ms
+         avg:                                 23.45ms
+         max:                                 50.63ms
+         approx.  95 percentile:              31.51ms
+
+Threads fairness:
+    events (avg/stddev):           1278.5000/3.20
+    execution time (avg/stddev):   29.9803/0.01
+
+4 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+Maximum prime number checked in CPU test: 30000
+
+
+Test execution summary:
+    total time:                          30.0199s
+    total number of events:              5097
+    total time taken by event execution: 119.9283
+    per-request statistics:
+         min:                                  9.81ms
+         avg:                                 23.53ms
+         max:                                 45.70ms
+         approx.  95 percentile:              30.70ms
+
+Threads fairness:
+    events (avg/stddev):           1274.2500/10.50
+    execution time (avg/stddev):   29.9821/0.01
+
+5 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 3 times)
+Done.
+
+Maximum prime number checked in CPU test: 30000
+
+
+Test execution summary:
+    total time:                          30.0153s
+    total number of events:              5136
+    total time taken by event execution: 119.8724
+    per-request statistics:
+         min:                                  9.73ms
+         avg:                                 23.34ms
+         max:                                 44.06ms
+         approx.  95 percentile:              30.80ms
+
+Threads fairness:
+    events (avg/stddev):           1284.0000/9.51
+    execution time (avg/stddev):   29.9681/0.01
+

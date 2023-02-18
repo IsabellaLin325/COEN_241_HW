@@ -1,0 +1,4 @@
+1. echo "Hello, Faas, World" since I have passed the arguments when I invoked the figlet function
+2. The command is used to generate logs to check if Faasd is running and show the first 40 lines logs
+3. After I deploy those functions, we can use Open-Faas gateway to check their info
+4. For invoking slack-request and slack-interactive, I used two commands to invoke them(curl url and faas-cli invoke)

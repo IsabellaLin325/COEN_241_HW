@@ -1,0 +1,16 @@
+2. Questions(20 pts)
+1. What is the command to invoke the slack-request function (4 pts)?
+a. For curl: curl http://237.0.0.1:8080/function/slack-request
+b. For faas-cli: faas-cli invoke slack-request
+2. What is the output you see when you invoke the slack-request function? (2 pts)
+
+3. What is the command to invoke the slack-interactive function? (4 pts)
+a. For curl:  curl http://237.0.0.1:8080/function/slack-interactive
+b. For faas-cli: faas-cli invoke slack-interactive
+4. What is the output you see when you invoke the slack-interactive function? (2 pts)
+
+5. How would you pass different arguments to the functions? (4 pts)
+In curl command, we can add arguments by attaching "-d" 
+In faas-cli, using "|" to seperate arguments and the invoke command
+6. How would you change the slack-interactive function to react to different inputs? (4 pts)
+For changing the slack-interactive, we can use urllib to react to different inputs.

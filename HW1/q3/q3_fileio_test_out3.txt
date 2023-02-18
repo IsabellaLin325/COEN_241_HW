@@ -1,0 +1,197 @@
+Test 3 ========> num of threads 16, total file size 4G
+1 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 32Mb each
+4Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+FATAL: Failed to fsync file! file: 0 errno = 22 ()
+Time limit exceeded, exiting...
+(last message repeated 14 times)
+Done.
+
+Operations performed:  11174 Read, 7453 Write, 23638 Other = 42265 Total
+Read 174.59Mb  Written 116.45Mb  Total transferred 291.05Mb  (9.6841Mb/sec)
+  619.78 Requests/sec executed
+
+Test execution summary:
+    total time:                          30.0542s
+    total number of events:              18627
+    total time taken by event execution: 88.6702
+    per-request statistics:
+         min:                                  0.02ms
+         avg:                                  4.76ms
+         max:                                189.85ms
+         approx.  95 percentile:              27.76ms
+
+Threads fairness:
+    events (avg/stddev):           1164.1875/257.28
+    execution time (avg/stddev):   5.5419/1.05
+
+2 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 32Mb each
+4Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 15 times)
+Done.
+
+Operations performed:  8876 Read, 5916 Write, 18850 Other = 33642 Total
+Read 138.69Mb  Written 92.438Mb  Total transferred 231.12Mb  (7.6958Mb/sec)
+  492.53 Requests/sec executed
+
+Test execution summary:
+    total time:                          30.0327s
+    total number of events:              14792
+    total time taken by event execution: 91.0583
+    per-request statistics:
+         min:                                  0.02ms
+         avg:                                  6.16ms
+         max:                                233.67ms
+         approx.  95 percentile:              38.37ms
+
+Threads fairness:
+    events (avg/stddev):           924.5000/98.46
+    execution time (avg/stddev):   5.6911/0.34
+
+3 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 32Mb each
+4Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 15 times)
+Done.
+
+Operations performed:  7258 Read, 4832 Write, 15346 Other = 27436 Total
+Read 113.41Mb  Written 75.5Mb  Total transferred 188.91Mb  (6.2831Mb/sec)
+  402.12 Requests/sec executed
+
+Test execution summary:
+    total time:                          30.0658s
+    total number of events:              12090
+    total time taken by event execution: 84.0618
+    per-request statistics:
+         min:                                  0.02ms
+         avg:                                  6.95ms
+         max:                                209.35ms
+         approx.  95 percentile:              45.29ms
+
+Threads fairness:
+    events (avg/stddev):           755.6250/82.11
+    execution time (avg/stddev):   5.2539/0.45
+
+4 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 32Mb each
+4Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 15 times)
+Done.
+
+Operations performed:  7036 Read, 4689 Write, 14867 Other = 26592 Total
+Read 109.94Mb  Written 73.266Mb  Total transferred 183.2Mb  (6.098Mb/sec)
+  390.27 Requests/sec executed
+
+Test execution summary:
+    total time:                          30.0431s
+    total number of events:              11725
+    total time taken by event execution: 88.2032
+    per-request statistics:
+         min:                                  0.02ms
+         avg:                                  7.52ms
+         max:                                254.87ms
+         approx.  95 percentile:              48.55ms
+
+Threads fairness:
+    events (avg/stddev):           732.8125/88.06
+    execution time (avg/stddev):   5.5127/0.40
+
+5 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 16
+
+Extra file open flags: 0
+128 files, 32Mb each
+4Gb total file size
+Block size 16Kb
+Number of random requests for random IO: 0
+Read/Write ratio for combined random IO test: 1.50
+Periodic FSYNC enabled, calling fsync() each 100 requests.
+Calling fsync() at the end of test, Enabled.
+Using synchronous I/O mode
+Doing random r/w test
+Threads started!
+Time limit exceeded, exiting...
+(last message repeated 15 times)
+Done.
+
+Operations performed:  11601 Read, 7734 Write, 24538 Other = 43873 Total
+Read 181.27Mb  Written 120.84Mb  Total transferred 302.11Mb  (10.058Mb/sec)
+  643.74 Requests/sec executed
+
+Test execution summary:
+    total time:                          30.0354s
+    total number of events:              19335
+    total time taken by event execution: 82.3949
+    per-request statistics:
+         min:                                  0.02ms
+         avg:                                  4.26ms
+         max:                                156.53ms
+         approx.  95 percentile:              25.60ms
+
+Threads fairness:
+    events (avg/stddev):           1208.4375/110.82
+    execution time (avg/stddev):   5.1497/0.31
+

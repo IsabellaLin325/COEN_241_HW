@@ -1,0 +1,141 @@
+Test 1 ========> num of threads 4; max prime 20000
+1 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          25.5706s
+    total number of events:              10000
+    total time taken by event execution: 102.1249
+    per-request statistics:
+         min:                                  5.51ms
+         avg:                                 10.21ms
+         max:                                 41.09ms
+         approx.  95 percentile:              13.78ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/17.07
+    execution time (avg/stddev):   25.5312/0.00
+
+2 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          26.8022s
+    total number of events:              10000
+    total time taken by event execution: 107.0165
+    per-request statistics:
+         min:                                  5.32ms
+         avg:                                 10.70ms
+         max:                                 43.09ms
+         approx.  95 percentile:              16.09ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/4.42
+    execution time (avg/stddev):   26.7541/0.01
+
+3 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          25.9362s
+    total number of events:              10000
+    total time taken by event execution: 103.5853
+    per-request statistics:
+         min:                                  5.30ms
+         avg:                                 10.36ms
+         max:                                 42.83ms
+         approx.  95 percentile:              14.28ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/19.79
+    execution time (avg/stddev):   25.8963/0.01
+
+4 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          27.0075s
+    total number of events:              10000
+    total time taken by event execution: 107.8714
+    per-request statistics:
+         min:                                  5.48ms
+         avg:                                 10.79ms
+         max:                                 48.58ms
+         approx.  95 percentile:              16.43ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/17.58
+    execution time (avg/stddev):   26.9678/0.01
+
+5 iteration
+sysbench 0.4.12:  multi-threaded system evaluation benchmark
+
+Running the test with following options:
+Number of threads: 4
+
+Doing CPU performance benchmark
+
+Threads started!
+Done.
+
+Maximum prime number checked in CPU test: 20000
+
+
+Test execution summary:
+    total time:                          25.8818s
+    total number of events:              10000
+    total time taken by event execution: 103.3863
+    per-request statistics:
+         min:                                  5.30ms
+         avg:                                 10.34ms
+         max:                                 33.65ms
+         approx.  95 percentile:              14.39ms
+
+Threads fairness:
+    events (avg/stddev):           2500.0000/9.43
+    execution time (avg/stddev):   25.8466/0.00
+
