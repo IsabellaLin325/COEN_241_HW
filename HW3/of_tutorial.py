@@ -83,7 +83,6 @@ class Tutorial (object):
     """
     Implement switch-like behavior.
     """
-    '''
     # Here's some psuedocode to start you off implementing a learning
     # switch.  You'll need to rewrite it as real Python code.
 
@@ -117,7 +116,6 @@ class Tutorial (object):
       # This part looks familiar, right?
       print(str(packet.dst) + " not known, resend to everybody")
       self.resend_packet(packet_in, of.OFPP_ALL)
-    '''
 
 
   def _handle_PacketIn (self, event):
